@@ -9758,10 +9758,11 @@ h6,
 .back-to-top {
   position: fixed;
   display: none;
-  right: 30px;
+  left: 30px; /* Changed from right to left */
   bottom: 30px;
   z-index: 99;
 }
+
 
 .navbar-light .navbar-nav .nav-link {
   font-family: 'Oswald', sans-serif;
